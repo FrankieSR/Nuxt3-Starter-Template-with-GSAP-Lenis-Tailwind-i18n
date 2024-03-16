@@ -1,16 +1,16 @@
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  if (process.client) {
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
-  }
+    if (process.client) {
+        gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    }
 
-  return {
-    provide: {
-      gsap,
-      ScrollTrigger,
-    },
-  }
-})
+    return {
+        provide: {
+            gsap,
+            ScrollTrigger,
+        },
+    };
+});

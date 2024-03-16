@@ -6,10 +6,10 @@ module.exports = {
                 reallyPurple: "#D6A3FB",
             },
             fontFamily: {
-                customFont: ["Montserrat", "sans-serif"], // Додайте кастомний шрифт
+                customFont: ["Montserrat", "sans-serif"],
             },
             spacing: {
-                customSpacing: "30rem", // Додайте кастомний простір
+                customSpacing: "30rem",
             },
         },
     },
